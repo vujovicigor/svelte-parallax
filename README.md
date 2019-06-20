@@ -3,7 +3,7 @@
 Install the dependencies...
 
 ```bash
-git clone git@github.com:vujovicigor/svelte-parallax.git
+git clone git@github.com:vujovicigor/svelte-parallax.git .
 npm install
 ```
 
