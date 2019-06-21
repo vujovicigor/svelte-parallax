@@ -48,27 +48,27 @@
 {#if show}
   <div style="height: calc(100vh + 100px); width:99000px"></div>
   <div id="b8" class="b" style="background-position-x:0px" 
-  in:fly="{{delay: 50, duration: 1300, y: 700, opacity: 0.5}}">
+  in:fly="{{delay: 0, duration: 1300, y: -700, opacity: 0.5}}">
   </div>
   <div id="b7" class="b" style="background-position-x:{bx/500}px; background-position-y:{by/20}px"
-  in:fly="{{delay: 250, duration: 1300, y: 700, opacity: 0.5}}">
+  in:fly="{{delay: 500, duration: 1000, x: -1700, opacity: 0.5}}">
   </div>
   <div id="b6" class="b" style="background-position-x:{bx/32}px; background-position-y:{by/10}px"
-  in:fly="{{delay: 450, duration: 1300, y: 700, opacity: 0.5}}">
+  in:fly="{{delay: 1000, duration: 1000, x: 1700, opacity: 0.5}}">
   </div>
   <div id="b5" class="b" style="background-position-x:{bx/16}px; background-position-y:{by/8}px"
-  in:fly="{{delay: 650, duration: 1300, y: 700, opacity: 0.5}}">
+  in:fly="{{delay: 1500, duration: 1000, y: 700, opacity: 0.0}}">
   </div>
   <div id="b4" class="b" style="background-position-x:{bx/8}px; background-position-y:{by/6}px"
-  in:fly="{{delay: 850, duration: 1300, y: 700, opacity: 0.5}}">
+  in:fly="{{delay: 2000, duration: 1000, y: 700, opacity: 0.0}}">
   </div>
   <div id="b3" class="b" style="background-position-x:{bx/4}px; background-position-y:{by/4}px"
-  in:fly="{{delay: 1050, duration: 1300, y: 700, opacity: 0.5}}">
+  in:fly="{{delay: 2300, duration: 1000, y: 700, opacity: 0.0}}">
   </div>
   <div id="b2" class="b" style="background-position-x:{bx/2}px; background-position-y:{by/2}px"
-  in:fly="{{delay: 1250, duration: 1300, y: 700, opacity: 0.5}}">
+  in:fly="{{delay: 2600, duration: 1000, y: 700, opacity: 0.5}}">
   </div>
   <div id="b1" class="b" style="background-position-x:{bx}px; background-position-y:{by}px"
-  in:fly="{{delay: 1450, duration: 1300, y: 700, opacity: 0.5}}">
+  in:fly="{{delay: 2800, duration: 1000, y: 700, opacity: 0.5}}">
   </div>
 {/if}
